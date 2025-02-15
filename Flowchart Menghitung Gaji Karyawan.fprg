@@ -86,10 +86,10 @@
                     </if>
                 </else>
             </if>
-            <assign variable="totalGaji" expression="gajiPokok + tunjangan + bonusKinerja"/>
+            <assign variable="totalGaji" expression="gajiPokok + tunjangan + lembur + bonusKinerja"/>
             <output expression="&quot;Total Gaji Anda Adalah Sebesar Rp...&quot;" newline="True"/>
             <output expression="totalGaji" newline="True"/>
-            <output expression="&quot;(Dihitung Dari Gaji Pokok + Tunjangan + Jam Kerja + Bonus Rating Kinerja).&quot;" newline="True"/>
+            <output expression="&quot;(Dihitung Dari Gaji Pokok + Tunjangan + Tarif Lembur + Bonus Rating Kinerja).&quot;" newline="True"/>
             <output expression="&quot;Semoga Anda Puas Dengan Gaji Anda &#55357;&#56842;&quot;" newline="True"/>
         </body>
     </function>
